@@ -1,0 +1,15 @@
+//This program will convert my age into Dog years
+//My intent is to use all the skills learned in the first
+//unit of the Code Academy course.
+
+let actualYears=prompt('"How old are you?')
+let dogYears
+
+//This is creating my variables. MY actual age is prompted and dogyears will be the container for the calculation.
+//Per Google search, average life expectancy is 10-13 years for dogs and 79 years for humans. I will use 12 for dogs
+//Therefore the conversion will be 79/12 or approx. 6.58
+
+dogYears=actualYears/6.58
+console.log('Your age in dog years is ' + dogYears)
+
+//Pray
